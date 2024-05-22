@@ -34,11 +34,11 @@ const ProductList = (props) => {
         loading="lazy"
         className={`product-img ${index % 5 === 2 && "product-img-single"}`}
         src={imageSrc}
-        alt={imageSrc}
+        alt={imageAlt}
       />
       <div className="product-details-container">
         <img
-          src="/assets/share.svg"
+          src="https://i.imghippo.com/files/5JLjU1716410392.jpg"
           alt="share"
           onClick={onClickShare}
           className={`share-icon ${index % 5 === 2 && "share-icon-single"}`}
