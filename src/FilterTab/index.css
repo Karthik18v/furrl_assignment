@@ -1,0 +1,14 @@
+.filter-tab {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  border: 2px solid rgb(210, 208, 208);
+  border-radius: 15px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  margin: 0;
+  margin-right: 8px;
+  min-width: fit-content;
+}

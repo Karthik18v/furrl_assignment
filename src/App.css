@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.banner-container {
+  background-image: url("https://cdn.furrl.in/vibes/VibeCard_HomeHunts.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 27vh;
+  max-height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
+.banner-container-heading {
+  color: #fff;
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.products-details-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.products-heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.count-dot {
+  color: gray;
+}
+.product-count {
+  font-size: 14px;
+  font-weight: 200;
+}
+.filters-container {
+  display: flex;
+  overflow: auto;
+  list-style: none;
+  scrollbar-width: none;
+  align-items: center;
+  text-align: center;
+}
+.active-filter-tab {
+  color: #fff;
+  background-color: #7e59e7;
+  border: none;
+}
+.products-container {
+  list-style-type: none;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+}

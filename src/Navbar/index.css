@@ -1,0 +1,26 @@
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  top: 0;
+  position: sticky;
+  background-color: #fff;
+  justify-content: center;
+}
+.website-logo {
+  height: 20px;
+  align-self: center;
+}
+
+.nav-icon {
+  height: 20px;
+  margin-left: 15px;
+}
+.nav-logo-container {
+  display: flex;
+  width: 100px;
+  right: 0px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
